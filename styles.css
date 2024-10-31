@@ -10,6 +10,12 @@ body {
     line-height: 1.5;
 }
 
+main {
+    background-color: rgb(248, 244, 244);
+    margin: 0 20px; 
+    padding:30px;
+}
+
 /*Navigation Bar*/
 
 nav {
@@ -56,3 +62,25 @@ float: left;
 li a:hover {
     background-color: #111;
   }
+
+  /*Main section*/
+
+  header {
+    font-size: 1.9em;
+font-weight: bolder;
+margin: 0;
+  }
+
+  /*introduction section*/
+
+  #css-note {
+    background-color: rgb(240, 190, 130);
+    border-radius: 5px;
+  }
+
+  h3 {
+    font-weight: 250px;
+    text-decoration: underline;
+  }
+
+ 
