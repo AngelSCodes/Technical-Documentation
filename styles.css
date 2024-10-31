@@ -1,3 +1,58 @@
-h1 {
-    color: pink;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    min-width: 290px;
+    color: #4c4c4e;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/*Navigation Bar*/
+
+nav {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    height:80px;
+    border-radius: 5px;
+}
+
+nav header {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#css-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+margin-left: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+float: left;
+}
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+  }
