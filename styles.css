@@ -15,6 +15,10 @@ main {
     margin: 0 20px; 
     padding:30px;
 }
+ em {
+    color: rgb(245, 35, 157);
+}
+
 
 /*Navigation Bar*/
 
@@ -100,7 +104,7 @@ margin: 0;
   }
 
   /*Selector Section*/
-  .selector-types, .box-type, .box-formular {
+  .selector-types, .box-type, .box-formular, .layout-section {
   list-style-type: none;
   }
 
@@ -122,9 +126,11 @@ flex-wrap: wrap;
     display: block;
     margin: 0 auto;
 }
-#css_box_model em {
-    color:#5f8dd3
-}
+
+
+/*Layout Section*/
+
+
  
 
 /*footer section*/
