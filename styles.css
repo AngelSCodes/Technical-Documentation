@@ -72,6 +72,14 @@ li a:hover {
 font-weight: bolder;
 margin: 0;
   }
+  .image-example {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  section {
+    margin-bottom: 25px;
+  }
 
   /*introduction section*/
 
@@ -91,11 +99,24 @@ margin: 0;
   .main-section header {
     color: #0878bb;
   }
-  #css-syntax {
-    display: block;
-    margin: 0 auto;
+
+  /*Selector Section*/
+  .selector-types {
+  list-style-type: none;
+  }
+
+  .example-image-selector {
+    width: 550px;
+    height: 350px;
     border-radius: 5px;
   }
+  #selector-images {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+    
+  }
+
  
 
 /*footer section*/
