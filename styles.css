@@ -63,6 +63,8 @@ li a:hover {
     background-color: #111;
   }
 
+ 
+
   /*Main section*/
 
   header {
@@ -76,6 +78,9 @@ margin: 0;
   #css-note {
     background-color: rgb(240, 190, 130);
     border-radius: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 20px;
   }
 
   h3 {
@@ -83,6 +88,14 @@ margin: 0;
     text-decoration: underline;
   }
 
+  .main-section header {
+    color: #0878bb;
+  }
+  #css-syntax {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
  
 
 /*footer section*/
