@@ -78,7 +78,7 @@ margin: 0;
     border-radius: 5px;
   }
   section {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
 
   /*introduction section*/
@@ -101,11 +101,11 @@ margin: 0;
   }
 
   /*Selector Section*/
-  .selector-types {
+  .selector-types, .box-type {
   list-style-type: none;
   }
 
-  .example-image-selector {
+  .example-image-selector  {
     width: 550px;
     height: 350px;
     border-radius: 5px;
@@ -116,6 +116,13 @@ justify-content: space-evenly;
 flex-wrap: wrap;
     
   }
+
+  /*box model*/
+.box-model {
+
+    display: block;
+    margin: 0 auto;
+}
 
  
 
