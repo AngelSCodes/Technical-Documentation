@@ -83,7 +83,7 @@ margin: 0;
 
   /*introduction section*/
 
-  #css-note {
+  .css-note {
     background-color: rgb(240, 190, 130);
     border-radius: 5px;
     margin-left: 35px;
@@ -92,7 +92,6 @@ margin: 0;
   }
 
   h3 {
-    font-weight: 250px;
     text-decoration: underline;
   }
 
@@ -101,7 +100,7 @@ margin: 0;
   }
 
   /*Selector Section*/
-  .selector-types, .box-type {
+  .selector-types, .box-type, .box-formular {
   list-style-type: none;
   }
 
@@ -123,7 +122,9 @@ flex-wrap: wrap;
     display: block;
     margin: 0 auto;
 }
-
+#css_box_model em {
+    color:#5f8dd3
+}
  
 
 /*footer section*/

@@ -45,7 +45,7 @@
         <section class="main-section" id="introduction">
             <header>Introduction</header>
             <p>CSS or Cascading Style Sheets is a language used to describe the presentation of a document written in HTML or XML. It enables web developers to control the layout, typography, and color of a website.</p>
-            <p id="css-note">
+            <p class="css-note">
                 <strong>Note:</strong> The word <strong>cascading</strong> means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!
             </p>
             <h3>What You should already know:</h3>
@@ -118,9 +118,44 @@
             <ul>
                 <li class="box-type">
                     <h3>Content box: </h3>
+                    <ul>
+                        <li>The content of the box, where text and images appear.</li>
+                        <li>Size it using properties like <em>inline-size</em> and <em>block-size</em> or <em>width</em> and <em>height</em>.</li>
+                    </ul>
                 </li>
-                <li class="box-type"></li>
-                <li class="box-type"></li>
+                <li class="box-type">
+                    <h3>Padding box:</h3>
+                    <ul>
+                        <li>The padding sits around the content as white space.</li>
+                        <li>Size it using <em>padding</em> and related properties.</li>
+                    </ul>
+                </li>
+                <li class="box-type">
+                    <h3>Border box:</h3>
+                    <ul>
+                        <li>The border box wraps the content and any padding.</li>
+                        <li> Size it using <em>border</em> and related properties.</li>
+                    </ul>
+                </li>
+                <li class="box-type">
+                    <h3>Margin box:</h3>
+                    <ul>
+                        <li>The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements.</li>
+                        <li>Size it using <em>margin</em> and related properties.</li>
+                    </ul>
+                </li>
+
+                <li class="box-type">
+                    <h3>Width and Height of an Element</h3>
+                    <p class="css-note"><strong>Important:</strong> When you set the width and height properties of an element with CSS, you just set the width and height of the <strong>content area</strong>. To calculate the total width and height of an element, you must also include the padding and borders.</p>
+                    <ul>
+                        <li>The total width of an element should be calculated like this:</li>
+                        <li class="box-formular"><strong>Total element width</strong> = width + left padding + right padding + left border + right border</li>
+                        <li>The total height of an element should be calculated like this:</li>
+                        <li class="box-formular"><strong>Total element height</strong> = height + top padding + bottom padding + top border + bottom border</li>
+                    </ul>
+                    <p class="css-note">Note: The margin property also affects the total space that the box will take up on the page, but the margin is not included in the actual size of the box. The box's total width and height stops at the border.</p>
+                </li>
             </ul>
         </section>
 
