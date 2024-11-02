@@ -128,8 +128,12 @@ flex-wrap: wrap;
 }
 
 
-/*Layout Section*/
-
+/*Colors Section*/
+#color-wheel {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
 
  
 
