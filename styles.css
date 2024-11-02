@@ -104,7 +104,7 @@ margin: 0;
   }
 
   /*Selector Section*/
-  .selector-types, .box-type, .box-formular, .layout-section {
+  .selector-types, .box-type, .box-formular, .layout-section, .colors-section {
   list-style-type: none;
   }
 
