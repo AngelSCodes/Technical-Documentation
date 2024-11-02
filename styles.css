@@ -104,11 +104,11 @@ margin: 0;
   }
 
   /*Selector Section*/
-  .selector-types, .box-type, .box-formular, .layout-section, .colors-section {
+  .selector-types, .box-type, .box-formular, .layout-section, .colors-section, .display-section {
   list-style-type: none;
   }
 
-  .example-image-selector  {
+  .example-image-selector   {
     width: 550px;
     height: 350px;
     border-radius: 5px;
@@ -135,6 +135,15 @@ flex-wrap: wrap;
   border-radius: 5px;
 }
 
+/*dipslay section*/
+#display-examples {
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
  
 
 /*footer section*/
