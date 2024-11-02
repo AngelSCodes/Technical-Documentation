@@ -159,3 +159,15 @@ text-align: center;
 margin-top: 25px;
 font-size: 15px;
   }
+
+  /* Media query for screens smaller than 600px */ @media (max-width: 600px) { 
+    #navbar ul {
+       flex-direction: column; 
+      } 
+  #navbar ul li {
+     margin-right: 0; margin-bottom: 10px; 
+    }
+   .main-section { 
+    padding: 10px; margin: 5px; 
+  } 
+  }
